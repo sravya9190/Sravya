@@ -30,6 +30,7 @@ node('node') {
        stage('Checkout'){
 
           checkout scm
+               git 'https://github.com/sravya9190/Sravya.git'
        }
 
        stage('Test'){
